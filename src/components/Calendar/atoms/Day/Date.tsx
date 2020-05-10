@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Date = styled.div`
 
@@ -6,7 +6,6 @@ const Date = styled.div`
   font-size: 20px;
   margin: 10px;
   text-align: center;
-
 `;
 
-export default Date
+export default Date;

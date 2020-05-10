@@ -1,6 +1,5 @@
-import styled from "styled-components";
-import { Header } from 'semantic-ui-react'
-
+import styled from 'styled-components';
+import { Header } from 'semantic-ui-react';
 
 const CustomHeader = styled(Header)`
 
@@ -12,4 +11,4 @@ const CustomHeader = styled(Header)`
   width: 100%;
 `;
 
-export default CustomHeader
+export default CustomHeader;

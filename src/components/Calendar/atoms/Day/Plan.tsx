@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Plan = styled.div`
 
@@ -6,7 +6,6 @@ const Plan = styled.div`
   border: none;
   border-radius: 10px;
   margin: 30px 10px 10px;
-
 `;
 
-export default Plan
+export default Plan;

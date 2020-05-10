@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const DayContainer = styled.div`
 
@@ -8,4 +8,4 @@ const DayContainer = styled.div`
   width: 15%;
 `;
 
-export default DayContainer
+export default DayContainer;
