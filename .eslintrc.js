@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
-    'jest/globals': true
+    'jest/globals': true,
   },
   extends: [
     'eslint:recommended',
@@ -25,15 +25,15 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
-    '__DEV__': true
+    __DEV__: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     project: './tsconfig.json',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
     '@typescript-eslint',
@@ -74,16 +74,16 @@ module.exports = {
       {
         disallowPrototype: true,
         singleReturnOnly: true,
-        classPropertiesAllowed: false
-      }
+        classPropertiesAllowed: false,
+      },
     ],
 
     // react
     'react/jsx-filename-extension': [
       'error',
       {
-        extensions: ['jsx', 'tsx']
-      }
+        extensions: ['jsx', 'tsx'],
+      },
     ],
     'react/jsx-props-no-spreading': [
       'warn',
@@ -106,8 +106,8 @@ module.exports = {
         js: 'never',
         jsx: 'never',
         ts: 'never',
-        tsx: 'never'
-      }
+        tsx: 'never',
+      },
     ],
     'import/prefer-default-export': 'off',
   },
@@ -119,10 +119,10 @@ module.exports = {
       node: {
         extensions: ['.js', 'jsx', '.ts', '.tsx'],
         paths: ['src'],
-      }
+      },
     },
     react: {
-      version: 'detect'
-    }
+      version: 'detect',
+    },
   },
 };

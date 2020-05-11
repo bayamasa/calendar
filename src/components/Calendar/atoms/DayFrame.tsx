@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const DayContainer = styled.div`
+const DayFrame = styled.div`
 
   border: solid 1px;
   margin-right: 1px;
@@ -8,4 +8,4 @@ const DayContainer = styled.div`
   width: 15%;
 `;
 
-export default DayContainer;
+export default DayFrame;
