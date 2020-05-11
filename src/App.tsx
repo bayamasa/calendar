@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import CalendarHeader from './containers/organisms/Header/CalendarHeader';
-import CalendarBoard from './containers/organisms/CalendarBoard';
-import WeekdayColumn from './components/Calendar/atoms/Wday/WeekdayColumn';
+import CalendarBoard from './containers/organisms/Board/CalendarBoard';
+import WeekdayColumn from './containers/organisms/Wday/WeekdayColumn';
 
 function App() {
   return (
